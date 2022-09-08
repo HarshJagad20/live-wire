@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <livewire:contact-form />
+    <livewire:show-contacts />
 
     @livewireScripts
 </body>

@@ -3,6 +3,7 @@
 use App\Http\Livewire\ContactForm;
 use App\Http\Livewire\Counter;
 use App\Http\Livewire\Posts;
+use App\Http\Livewire\ShowContacts;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,3 +26,5 @@ Route::get('counter', Counter::class);
 Route::get('post', Posts::class);
 
 Route::get('contact-form', ContactForm::class);
+
+Route::get('contacts', ShowContacts::class);
